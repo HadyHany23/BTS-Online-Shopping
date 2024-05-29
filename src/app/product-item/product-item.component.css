@@ -1,13 +1,44 @@
+#nav {
+  background-color: black;
+  padding: 10px;
+}
+
+.nav-link {
+  color: white;
+  background-color: grey;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+#side .nav-item {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+ul li {
+  list-style: none;
+}
+
 section {
   background-color: rgb(43, 43, 78);
   padding: 40px;
-  margin: 0;
+  margin: 0 10px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
+.row ul {
+  margin: 40px auto;
+}
+
 .card {
   padding: 20px;
-  margin: 40px auto;
+  margin: 20px auto;
+}
+
+#button {
+  margin-right: 5px;
 }
